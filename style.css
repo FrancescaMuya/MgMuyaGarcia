@@ -1,0 +1,94 @@
+*{
+  color: f2f2f2;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+div#nav {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  padding: 10px 0px 10px 10px;
+  margin: 0;
+  width: 100%;
+}
+div#nav ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+div#nav li  {
+  width: 100px;
+  padding: 10px;
+  margin: 0px 1px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+div#nav li:hover {
+  background: white;
+}
+div#logo {
+  float: right;
+}
+h2 {
+  text-align: center;
+  color: #8c1c1f;
+}
+.par{
+  padding: 10px 50px 20px;
+  text-align: center;
+}
+div.clearfix {
+  background-color: #a28a7f;
+  width: 500px;
+  padding: 10px 20px 10px 20px;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  text-align: justify;
+  border: 2px solid black;
+}
+div.clearfix a:hover{
+  background: white;
+  color: black;
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix img{
+  margin-right: 10px;
+  margin-left: 10px;
+  display: block;
+  width: 50%;
+  float: right; 
+}
+}
+div.clearfix a{
+  color: #8c1c1f
+}
+div#nav-bottom {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+div#nav-bottom ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+div#nav-bottom li  {
+  width: 100px;
+  padding: 10px;
+  margin: 0px 1px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+div#nav-bottom li:hover {
+  background: white;
+  color: black;
+}
