@@ -1,83 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!--Site logo and title-->
   <title>Marcos in the Pages of History </title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/MPH.png"/>
+  <!--Declaration of meta tags and viewports-->
   <meta charset="UTF-8"/>
-  <meta name="author" content="Francesca R. Muya"/>
-  <meta name="keywords" content="CSS, selectors, properties"/>
-  <meta name="revised" content="01-Oct-2022"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="style.css" rel="stylesheet" type="text/css"/>
-  <link rel="shortcut icon" type="image/x-icon" href="images/MPH.png" />
+  <meta name="author" content="Kilyan Rye M. Garcia, Francesca R. Muya"/>
+  <meta name="keywords" content="HTML, CSS"/>
+  <meta name="revised" content="28-Oct-2022"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--Calling of stylesheet and fonts-->
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="css/nav.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="nav">
-    <div id="logo">
-      <img src="images/MPH.png" width="50px" height="50px">
-    </div>ha ano na plano ulit?
-    <ol>
-      <li>
-         <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="htdocs/About.html">About</a>
-      </li>
-      <li>
-        <a href="htdocs/Contact.html">Contact</a>
-      </li>
-    </ol>  
-  </div>
+  <!--Top Navigation Bar-->
+    <header>
+      <img class="logo" src="images/marcosLogo.png" alt="MPH Logo" width="300px">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="htdocs/About.html">About</a></li>
+          <li><a href="htdocs/Contact.html">Contact</a></li>
+          <li><a href="htdocs/Resources.html">Resources</a></li>
+        </ul>
+      </nav>
+      <a href="index.html"><button class="navbutton">Home</button></a>  
+    </header>
+
+  <!--Website Header-->
+    <img src="images/marcosHeader.png" width="100%" style="margin: 102px 0px 20px 0px;">
   
-  <img src="images/marcosHeader.png" width="100%" height="10%">
-  
-  <h2>About our website</h2>
-      <p class="par">
-        Marcos in the Pages of History is a digital educational platform that documents the timeline of the Marcos family in the political circle of the Philippines. The lack of proper research and disregard for history allowed the Marcoses to regain popularity among the masses. Blatant disinformation, historical distortion, troll farms, and propaganda have manipulated the public to deny history and glorify the atrocities during the Marcos Dictatorship. 
-      </p> 
-      
-      <p class="par">
-        The Marcos Regime is considered one of the darkest ages in Philippine History. Multiple human rights violations and suppression of press freedom were imposed during the Martial Law era. In the modern world, not many people acknowledge this side of history despite having enough capabilities to research. On this website, we aim to rebuild national consciousness and give light on what is true. We also aim to pay respect to the victims and martyrs who experienced such horrors during the time of Marcos. 
-      </p>
-  
+  <!---Links and Descriptions of Subpages--->
     <h2>Our Advocacies...</h2> 
   
-      <div class="clearfix">
-        <img src="images/marcosFamily.jpg">
-        <a href="htdocs/AboutTheMarcoses.html"><h3>MAKINIG</h3> About the Marcoses</a>
-       <p>Biography about the Marcos family and how they came into power. In this subpage, we will tackle the lives of the most influential members of the Marcos family:<i> Ferdinand Marcos, Imelda Marcos, Imee Marcos, Bongbong Marcos</i></p>
+    <!--Page 1: About the Marcoses-->
+      <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="images/marcosFamily.jpg" alt="Marcos Family">
+          <div class="cardcontainer">
+            <h2>MAKINIG</h2>
+            <p class="title">About the Marcoses</p>
+            <p>Biography about the Marcos family and how they came into power. In this subpage, we will tackle the lives of the most influential members of the Marcos family:<i> Ferdinand Marcos, Imelda Marcos, Imee Marcos, Bongbong Marcos </i></p>
+            <a href="htdocs/AboutTheMarcoses.html"><p><button class="button">More</button></p></a>
+          </div>
+        </div>
       </div>
-  
-      <div class="clearfix">
-        <img src="images/marcosIndex.jpg">
-        <a href="htdocs/TheMarcosRegime.html"><h3>MATUTO</h3> The Marcos Regime</a>
-       <p>Documentation about the state of the country during the Marcos administration. Tackles the dictatorship of Ferdinand Marcos Sr. </i></p>
+    
+    <!--Page 2: The Marcos Regime--> 
+      <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="images/marcosIndex.jpg" alt="Marcos Regime">
+          <div class="cardcontainer">
+            <h2>MATUTO</h2>
+            <p class="title">The Marcos Regime</p>
+            <p>Documentation about the state of the country during the Marcos administration. Tackles the dictatorship of Ferdinand Marcos Sr.</p>
+            <a href="htdocs/TheMarcosRegime.html"><p><button class="button">More</button></p></a>
+          </div>
+        </div>
       </div>
-  
-      <div class="clearfix">
-        <a href="htdocs/ReturnToPower.html"><h3>MAGSALIKSIK</h3> Return to Power</a>
-       <p>The return of the Marcos family to the Malacanang Palace through historical distortion. Debunking of the fabricated information made by the troll farms that affected the contemporary world and the recently concluded election.</i></p>
+      
+    <!--Page 3: Return to Power-->
+      <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="images/ReturnToPower.jpg" alt="Return to Power">
+          <div class="cardcontainer">
+            <h2>MAGSALIKSIK</h2>
+            <p class="title">Return to Power</p>
+            <p>The return of the Marcos family to the Malacanang Palace through historical distortion. Debunking of the fabricated information made by the troll farms that affected the contemporary world and the recently concluded election.</p>
+            <a href="htdocs/ReturnToPower.html"><p><button class="button">More</button></p></a>
+          </div>
+        </div>
       </div>
-  
-      <div class="clearfix">
-        <a href="htdocs/ThePisayMartyrs.html"><h3>MANINDIGAN</h3> The Pisay Martyrs</a>
-       <p>Stories of our fellow Pisay scholars who took the stand against Marcos' iron fist.</i></p>
+
+    <!--Page 4: The Pisay Martyrs-->     
+      <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="images/PisayMartyrs.jpg" alt="The Pisay Martyrs">
+          <div class="cardcontainer">
+            <h2>MANINDIGAN</h2>
+            <p class="title">The Pisay Martyrs</p>
+            <p>Stories of our fellow Pisay scholars who took the stand against Marcos' iron fist.</p>
+            <a href="htdocs/ThePisayMartyrs.html"><p><button class="button">More</button></p></a>
+          </div>
+        </div>
       </div>
-  
-    <div id="nav-bottom">
-    <ol>
-      <li>
-         <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="htdocs/About.html">About</a>
-      </li>
-      <li>
-        <a href="htdocs/Contact.html">Contact</a>
-      </li>
-      <li>
-        <a href="htdocs/Resources.html"> Resources</a>
-      </li>
-    </ol>  
-  </div>
+
+  <!---Bottom Navigation bar--->
+    <footer>
+      <div class="nav-links-bottom">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="htdocs/About.html">About</a></li>
+          <li><a href="htdocs/Contact.html">Contact</a></li>
+          <li><a href="htdocs/Resources.html"> Resources</a></li>
+        </ul>
+      </div>
+    </footer> 
+    
 </body>
 </html>
