@@ -1,7 +1,8 @@
+/*Importing font*/
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
 
 /*Top Navigation*/
-header{
+header {
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -12,7 +13,7 @@ header{
   z-index: 9999;
 }
 
-.navbutton, li, a{
+.navbutton, li, a {
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -20,28 +21,28 @@ header{
   text-decoration: none;
   }
 
-.logo{
+.logo {
   cursor: pointer;
 }
 
-.nav-links{
+.nav-links {
   list-style: none;
 }
 
-.nav-links li{
+.nav-links li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.nav-links li a{
+.nav-links li a {
   transition: all 0.3s ease 0s;
 }
 
-.nav-links li a:hover{
+.nav-links li a:hover {
   color: #8c1c1f;
 }
 
-.navbutton{
+.navbutton {
   padding: 9px 25px;
   background-color: rgba(73, 0, 0, 1);
   border: none;
@@ -50,11 +51,38 @@ header{
   transition: all 0.3s ease 0s;
 }
 
-.navbutton:hover{
+.navbutton:hover {
   background-color: rgba(73, 0, 0, 0.7);
 }
 
 /*Bottom Navigation*/
+footer {
+  position: relative;
+  display: flex;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+}
+
+.nav-links-bottom {
+  list-style: none;
+}
+
+.nav-links-bottom li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links-bottom li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links-bottom li a:hover {
+  color: #8c1c1f;
+}
 
 
 
